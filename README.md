@@ -9,6 +9,6 @@ Currently stories in Ready [![Stories in Ready](https://badge.waffle.io/EasyBudg
 ## Continuous Integration
 Continuous integration server is [AppVeyor CI](https://ci.appveyor.com/project/QualiSystems/easybudget)
 
-Latest build on **master* branch [![Build status](https://ci.appveyor.com/api/projects/status/qy881k7ouny4k12k/branch/master?svg=true)](https://ci.appveyor.com/project/QualiSystems/easybudget/branch/master)
+Latest build on **master** branch [![Build status](https://ci.appveyor.com/api/projects/status/qy881k7ouny4k12k/branch/master?svg=true)](https://ci.appveyor.com/project/QualiSystems/easybudget/branch/master)
 
 
