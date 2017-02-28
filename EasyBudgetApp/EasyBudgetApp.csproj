@@ -58,23 +58,27 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="DevExpress.Data.v16.1, Version=16.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <Private>True</Private>
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Resources\DevExpress 16.1\DevExpress.Data.v16.1.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.Mvvm.v16.1, Version=16.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
       <Private>True</Private>
     </Reference>
-    <Reference Include="DevExpress.Printing.v16.1.Core, Version=16.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.Xpf.Core.v16.1, Version=16.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <Private>True</Private>
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Resources\DevExpress 16.1\DevExpress.Xpf.Core.v16.1.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.Xpf.Grid.v16.1, Version=16.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <Private>True</Private>
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Resources\DevExpress 16.1\DevExpress.Xpf.Grid.v16.1.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.Xpf.Grid.v16.1.Core, Version=16.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <Private>True</Private>
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Resources\DevExpress 16.1\DevExpress.Xpf.Grid.v16.1.Core.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.Xpf.Grid.v16.1.Extensions, Version=16.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <Private>True</Private>
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Resources\DevExpress 16.1\DevExpress.Xpf.Grid.v16.1.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="ICSharpCode.SharpZipLib, Version=0.86.0.518, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\squirrel.windows.1.4.1\lib\Net45\ICSharpCode.SharpZipLib.dll</HintPath>
@@ -325,10 +329,6 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="_Resources\Icons.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
     <Page Include="Views\SettingsView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -365,16 +365,9 @@
     </None>
     <AppDesigner Include="Properties\" />
     <Resource Include="Resources\Entypo.ttf" />
-    <Resource Include="_Resources\Entypo.ttf" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="_Resources\WindowsIcons-license.txt" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="_Resources\Entypo-license.txt" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
@@ -414,6 +407,13 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="budget_icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\DevExpress 16.1\DevExpress.Data.v16.1.dll" />
+    <Content Include="Resources\DevExpress 16.1\DevExpress.Xpf.Core.v16.1.dll" />
+    <Content Include="Resources\DevExpress 16.1\DevExpress.Xpf.Grid.v16.1.Core.dll" />
+    <Content Include="Resources\DevExpress 16.1\DevExpress.Xpf.Grid.v16.1.dll" />
+    <Content Include="Resources\DevExpress 16.1\DevExpress.Xpf.Grid.v16.1.Extensions.dll" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="AfterBuild" Condition=" '$(Configuration)' == 'Release'">
