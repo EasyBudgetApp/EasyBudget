@@ -411,6 +411,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Resources\DevExpress 16.1\DevExpress.Data.v16.1.dll" />
+    <Content Include="Resources\DevExpress 16.1\DevExpress.Mvvm.v16.1.dll" />
     <Content Include="Resources\DevExpress 16.1\DevExpress.Xpf.Core.v16.1.dll" />
     <Content Include="Resources\DevExpress 16.1\DevExpress.Xpf.Grid.v16.1.Core.dll" />
     <Content Include="Resources\DevExpress 16.1\DevExpress.Xpf.Grid.v16.1.dll" />
