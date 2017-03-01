@@ -430,6 +430,9 @@
     <Exec Command="nuget pack EasyBudget.nuspec -Version %(myAssemblyInfo.Version) -Properties Configuration=Release -OutputDirectory $(OutDir) -BasePath $(OutDir)" />
     <Exec Command="squirrel --releasify $(OutDir)EasyBudget.%(myAssemblyInfo.Version).nupkg" />
   </Target>
+  <PropertyGroup>
+    <PostBuildEvent>xcopy $(ProjectDir)Models\Credentials\Data\*.json $(TargetDir) /Y</PostBuildEvent>
+  </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">

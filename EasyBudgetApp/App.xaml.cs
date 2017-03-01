@@ -25,7 +25,7 @@ namespace EasyBudgetApp
 
             log4net.Config.XmlConfigurator.Configure();
 
-            Uri uri = new Uri("_Resources/Icons.xaml", UriKind.Relative);
+            Uri uri = new Uri("Resources/Icons.xaml", UriKind.Relative);
             ResourceDictionary dict = new ResourceDictionary { Source = uri };
             
             var mainView = new MainView();
