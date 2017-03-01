@@ -7,8 +7,8 @@ Kanban board in managed on [Waffle.io](https://badge.waffle.io/EasyBudgetApp/Eas
 Currently stories in Ready [![Stories in Ready](https://badge.waffle.io/EasyBudgetApp/EasyBudget.svg?label=ready&title=Ready)](http://waffle.io/EasyBudgetApp/EasyBudget)
 
 ## Continuous Integration
-Continuous integration server is [AppVeyor CI](https://ci.appveyor.com/project/QualiSystems/easybudget)
+Continuous integration server is [AppVeyor CI](https://ci.appveyor.com/project/yuriykipnis/easybudget)
 
-Latest build on **master** branch [![Build status](https://ci.appveyor.com/api/projects/status/qy881k7ouny4k12k/branch/master?svg=true)](https://ci.appveyor.com/project/QualiSystems/easybudget/branch/master)
+Latest build on **master** branch [![Build status](https://ci.appveyor.com/project/yuriykipnis/easybudget/branch/master?svg=true)](https://ci.appveyor.com/project/yuriykipnis/easybudget/branch/master)
 
 
